@@ -15,6 +15,10 @@ const transactionsController = require("./controllers/transactionsController");
 //USE CONTROLLERS
 app.use("/transactions", transactionsController);
 
+app.get("/", (req, res) => {
+  res.status(200).send("Welcome to Budget App!");
+});
+
 app.get("*", (req, res) => {
   res.status(404).send("404 Page not found!");
 });

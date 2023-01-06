@@ -1,11 +1,18 @@
 Full Stack Budgeting App
 Create a backend API using Express that performs full CRUD on a single model, transactions. Then, using RESTful routes, connect it to a React app.
 
+SCREENSHOTS
+
+---
+
 https://github.com/9-1-pursuit/project-budgeting-app/blob/main/assets/index-page.png
 
 https://github.com/9-1-pursuit/project-budgeting-app/blob/main/assets/new-page.png
 
-Overview
+---
+
+OVERVIEW
+
 Follow the instructions and User Stories to meet the criteria for this project. Use Images in these instructions as a reference only.
 Use Express to build a back-end.
 Use create-react-app to build a front-end.
@@ -16,7 +23,10 @@ You must implement all of the user stories and acceptance criteria below. After 
 
 Be sure to build this out as a portfolio piece: Something you would be excited to show to a potential employer and be able to talk through the code with them.
 
-User Stories
+---
+
+USER STORIES
+
 You must successfully build a minimum of 6 out of 9 features to pass this project
 
 (1) Navigation/Nav Bar
@@ -62,8 +72,11 @@ There is implementation of at least one bonus feature beyond what has been taugh
 
 This can be a CSS framework, a new NPM package, a chart that shows the data in a new way, working with the date object instead of strings etc. Please confirm with your instructor.
 
-Acceptance Criteria
-Back-end
+---
+
+ACCEPTANCE CRITERIA
+
+BACK-END
 For the back-end to be complete, the following must be true:
 
 The application uses express, dotenv, cors.
@@ -80,7 +93,7 @@ The application handles common errors and has any necessary validations
 5 Update /transactions/:id PUT Update Update a transactions
 Note: All of the above routes should work both with an application like Postman and a front-end framework like React
 
-Model
+MODEL
 
 There will be one model with at least these components
 item_name- string - the name of the transaction (ie: income, savings, cat food, etc.)
@@ -106,6 +119,10 @@ The bank account total somewhere near the top.
 The bank account CSS changes depending on the amount in the bank account
 The following is present on the "New" page:
 
+---
+
+NAV BAR
+
 The navigation bar.
 The url will be /transactions/new.
 The form to create new transactions, which has four fields.
@@ -114,6 +131,11 @@ name - a string, the name of the transactions.
 amount - a number, the amount of the expenditure/income.
 from - a string, where this expense/income has come from.
 category - a string. As a bonus, this can be an options menu.
+
+---
+
+SHOW PAGE
+
 The following is present on the "Show" page
 
 date - a string, in any format.
@@ -123,15 +145,10 @@ from - a string, where this expense/income has come from.
 category - a string`
 The following is present on the "Edit" page
 
-The navigation bar.
-The url will be /transactions/new.
-The form to create new transactions, which has four fields.
-date - a string, in any format.
-name - a string, the name of the transactions.
-amount - a number, the amount of the expenditure/income.
-from - a string, where this expense/income has come from.
-category - a string. As a bonus, this can be an options menu.
-Bonus Ideas:
+---
+
+BONUSES
+
 Change favicon from default react app.
 Add some logic/functionality that will make income a positive number and an expenditure a negative number, rather than having the user type it in.
 Use react-bootstrap or a similar CSS framework to help style your app.
@@ -140,5 +157,3 @@ Use the date object for the date, instead of just a string.
 Use the input type date for the date.
 Add a library like chartjs or D3 to provide visualizations the budget app.
 Be sure to confirm with your instructor which bonus idea you will implement.
-
-test
