@@ -4,6 +4,7 @@ const validateURL = (req, res, next) => {
 };
 
 const validatePost = (req, res, next) => {
+  console.log(req.body);
   if (typeof req.body.item_name !== "string") {
     console.log("item name is not string");
     res.redirect("/*");
